@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true"
-          name="C:/Users/viloa/IdeaProjects/TestNG/src/test/java/class02/SoftAssertion.java">
+    <test verbose="2" preserve-order="true" name="SoftAssertion">
         <classes>
             <class name="class01.Annotations"></class>
             <class name="class01.EnableDisable"></class>
