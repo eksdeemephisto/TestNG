@@ -25,7 +25,7 @@ public class TestNgExample {
 
     @BeforeMethod(alwaysRun = true)
     public void OpenAndLaunchBrowser() {
-//      WebDriver    /
+//      WebDriver
         driver = new ChromeDriver();
         driver.get("http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login");
         driver.manage().window().maximize();
