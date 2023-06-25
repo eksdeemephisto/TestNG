@@ -48,7 +48,7 @@ public class HardAssertion extends CommonMethods {
         WebElement errorMsg = driver.findElement(By.id("spanMessage"));
 
         String actualErrorMessage = errorMsg.getText();
-        String expectedErrorMessage = "Invalid credential";
+        String expectedErrorMessage = "Invalid credentials";
 
 //        comparing two strings , which assertion to use
         Assert.assertEquals(actualErrorMessage, expectedErrorMessage);
