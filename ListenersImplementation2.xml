@@ -6,8 +6,8 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="Priority">
         <classes>
-            <class name="class01.EnableDisable"></class>
-            <class name="class01.Priority"></class>
+            <class name="class02.HardAssertion"></class>
+            <class name="class02.SoftAssertion"></class>
         </classes>
     </test>
 </suite>
